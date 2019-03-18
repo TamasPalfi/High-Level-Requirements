@@ -53,9 +53,9 @@ Then, each subsequent class will inherit these methods and then define class spe
   | Integer | Integer | Integer | String | Date and Time Field | Integer |
   
   ### Filtered Image
-  | ID | Key to Filters | Key to Sponsored Items | Key to Original Post | Points Given | Done by Admin |
-  | :- | :-----: | :------: | :-------: | :-----: | :----: |
-  | Integer | Integer | Integer | Integer | Integer | Boolean |
+  | ID | Key to Filters | Key to Sponsored Items | Key to Original Post | Points Given | Done by Admin | Key to Post |
+  | :- | :-----: | :------: | :-------: | :-----: | :----: | :----: |
+  | Integer | Integer | Integer | Integer | Integer | Boolean | Integer |
   
   ### Filters
   | ID | Key to Post | Filter Name | Description | Points Given |
@@ -63,9 +63,9 @@ Then, each subsequent class will inherit these methods and then define class spe
   | Integer | Integer | String | String | Integer |
   
   ### Original Posted Image
-  | ID | Associated User | Image Format | Timestamp | Associated Website (if applicable) | is_Flagged() | Assoc. Filtered Photo Key (if applicable) |
-  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: |
-  | Integer | String | String | Date & Time Field | String | Boolean | Integer Key | 
+  | ID | Associated User | Image Format | Timestamp | Associated Website (if applicable) | is_Flagged() | Filtered Photo Key| Post Key |
+  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
+  | Integer | String | String | Date & Time Field | String | Boolean | Integer | Integer |
   
 </details>
   
