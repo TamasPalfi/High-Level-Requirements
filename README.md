@@ -73,3 +73,9 @@ Then, each subsequent class will inherit these methods and then define class spe
   | Integer | Date & Time Field | Date & Time Field | Integer | Integer | Integer | Integer | Integer |
   
 </details>
+
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Member%20Adapter%20Pattern.png)
+
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Member%20Adapter%20Pattern.png)
+
+
