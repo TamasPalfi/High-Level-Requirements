@@ -53,9 +53,9 @@ Then, each subsequent class will inherit these methods and then define class spe
   | Integer | Integer | Integer | String | Date and Time Field | Integer |
   
   ### Filtered Image
-  | ID | Key to Filters | Key to Sponsored Items | Key to Original Post | Points Given |
-  | :- | :-----: | :------: | :-------: | :-----: |
-  | Integer | Integer | Integer | Integer | Integer |
+  | ID | Key to Filters | Key to Sponsored Items | Key to Original Post | Points Given | Done by Admin |
+  | :- | :-----: | :------: | :-------: | :-----: | -------:
+  | Integer | Integer | Integer | Integer | Integer | Boolean |
   
   ### Filters
   | ID | Key to Post | Filter Name | Description | Points Given |
