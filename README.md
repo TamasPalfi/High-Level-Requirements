@@ -66,6 +66,10 @@ Then, each subsequent class will inherit these methods and then define class spe
   | ID | Associated User | Image Format | Timestamp | Associated Website | Flagged | Filtered Photo Key | Post Key |
   | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
   | Integer | String | String | Date & Time Field | String | Boolean | Integer | Integer |
+
+  ### Post
+  | ID | Date Created | Date Modified | Image ID | Comment ID | Photo ID | User ID| Flag ID |
+  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
+  | Integer | Date & Time Field | Date & Time Field | Integer | Integer | Integer | Integer | Integer |
   
 </details>
-  
