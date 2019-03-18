@@ -37,7 +37,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  
  ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Photo%20Adapter%20Diagram.png)
  
- ###Post-Comment Adapter Table
+ Post-Comment Adapter Pattern
  
  ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/post-commentAdapterTable.pdf)
 
