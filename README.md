@@ -28,9 +28,9 @@ Then, each subsequent class will inherit these methods and then define class spe
   <summary> Data Tables </summary>
   
   ### User
-  | ID | Email | Password | CC Number | CVV | isAdmin | isIdol |
-  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: |
-  | Integer | String | String | Integer | Integer | Boolean | Boolean |
+  | ID | Email | Password | CC Number | CVV | isAdmin | isIdol | Points | Visibility | Invited By |
+  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :---: | :----: | :----: |
+  | Integer | String | String | Integer | Integer | Boolean | Boolean | Integer | Boolean | Integer |
   
   ### URL
   | ID | Text/Link | Password | Shortened URL Key | User Key | Associated Website |
