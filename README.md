@@ -62,7 +62,7 @@ Then, each subsequent class will inherit these methods and then define class spe
   | :- | :---: | :------: | :-------: | :---: |
   | Integer | Integer | String | String | Integer |
   
-  ### Original Posted Image
+  ### Image
   | ID | Associated User | Image Format | Timestamp | Associated Website | Flagged | Filtered Photo Key | Post Key |
   | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
   | Integer | String | String | Date & Time Field | String | Boolean | Integer | Integer |
