@@ -45,6 +45,7 @@ Then, each subsequent class will inherit these methods and then define class spe
 
 
 
+
 <details>
   <summary> Data Tables </summary>
   
@@ -95,8 +96,16 @@ Then, each subsequent class will inherit these methods and then define class spe
   
 </details>
 
+### ER diagram.
 
+#### User
+![](user.png)
 
+#### Image
+![](image.png)
 
+#### Post
+![](post.png)
 
-
+#### ER Diagram
+![](entire_map.png)
