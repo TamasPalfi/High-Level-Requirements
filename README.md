@@ -68,8 +68,8 @@ Then, each subsequent class will inherit these methods and then define class spe
   | Integer | String | String | Date & Time Field | String | Boolean | Integer | Integer |
 
   ### Post
-  | ID | Date Created | Date Modified | Image ID | Comment ID | Photo ID | User ID| Flag ID |
+  | ID | Date Created | Date Modified | Image ID | Comment ID | Photo ID | User ID| Flag |
   | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
-  | Integer | Date & Time Field | Date & Time Field | Integer | Integer | Integer | Integer | Integer |
+  | Integer | Date & Time Field | Date & Time Field | Integer | Integer | Integer | Integer | Boolean |
   
 </details>
