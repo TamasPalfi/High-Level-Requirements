@@ -76,6 +76,6 @@ Then, each subsequent class will inherit these methods and then define class spe
 
 ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Member%20Adapter%20Pattern.png)
 
-![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Member%20Adapter%20Pattern.png)
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Object%20Oriented%20Members%20Only%20-%20Fault%20Tree%20Analysis%20Example.png)
 
 
