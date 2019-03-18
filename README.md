@@ -73,7 +73,7 @@ Then, each subsequent class will inherit these methods and then define class spe
   ### Filters
   | ID | Key to Post | Filter Name | Description | Points Given |
   | :- | :---: | :------: | :-------: | :---: |
-  | Integer | Integer | String | String | Integer |
+  | Integer | Inteusrger | String | String | Integer |
   
   ### Image
   | ID | Associated User | Image Format | Timestamp | Associated Website | Flagged | Filtered Photo Key | Post Key |
@@ -81,9 +81,9 @@ Then, each subsequent class will inherit these methods and then define class spe
   | Integer | String | String | Date & Time Field | String | Boolean | Integer | Integer |
 
   ### Post
-  | ID | Date Created | Date Modified | Image ID | Comment ID | Photo ID | User ID| Flag ID|
-  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
-  | Integer | Date & Time Field | Date & Time Field | Integer | Integer | Integer | Integer | Integer |
+  | ID  | Image ID | Comment ID | Photo ID | User ID| Date Created | Date Modified | content | isFlagged | 
+  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |:----: |
+  | Integer | Integer | Integer | Integer | Integer | Date & Time Field | Date & Time Field | String | Boolean | 
   
 </details>
 
