@@ -47,6 +47,21 @@ Then, each subsequent class will inherit these methods and then define class spe
   | :- | :---: | :------: | :-------: | :-: | :-----: |
   | Integer | String | Integer | String | Int x Int | Integer |
   
+  ### Comment
+  | ID | Key to User | Key to Original Post | Content of Comment | Time and Date Posted | Post Given |
+  | :- | :---: | :------: | :-------: | :----: | :-----: |
+  | Integer | Integer | Integer | String | Date and Time Field | Integer |
+  
+  ### Filtered Image
+  | ID | Key to Filters | Key to Sponsored Items | Key to Original Post | Points Given |
+  | :- | :-----: | :------: | :-------: | :-----: |
+  | Integer | Integer | Integer | Integer | Integer |
+  
+  ### Filters
+  | ID | Key to Post | Filter Name | Description | Points Given |
+  | :- | :---: | :------: | :-------: | :---: |
+  | Integer | Integer | String | String | Integer |
+  
   
 </details>
   
