@@ -101,7 +101,7 @@ Then, each subsequent class will inherit these methods and then define class spe
 <details>
  <summary> Class Method Calls </summary>
  
- ### URL
+### URL
  - get_id()
  - set_id()
  - remove_item()
@@ -114,7 +114,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  - get_website()
  - set_website()
  
-  ### Shortened URL
+ ### Shortened URL
  - get_id()
  - set_id()
  - remove_item()
@@ -127,7 +127,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  - get_website()
  - set_website()
  
-   ### Sponsored Item
+### Sponsored Item
  - get_id()
  - set_id()
  - remove_item()
@@ -142,7 +142,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  - get_times_used()
  - set_times_used()
  
-   ### Comment
+### Comment
  - get_id()
  - set_id()
  - remove_item()
@@ -155,7 +155,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  - get_points()
  - set_points()
  
- ### Filtered Image
+### Filtered Image
  - get_id()
  - set_id()
  - remove_item()
@@ -174,7 +174,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  - get_time()
  - set_time()
  
-  ### Filters
+### Filters
  - get_id()
  - set_id()
  - remove_item()
@@ -185,7 +185,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  - get_points()
  - set_points()
  
- ### Image
+### Image
  - get_id()
  - set_id()
  - remove_item()
@@ -206,7 +206,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  - get_filtered()
  - set_filtered()
  
-  ### Post
+### Post
  - get_id()
  - set_id()
  - remove_item()
