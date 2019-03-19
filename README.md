@@ -34,7 +34,7 @@ Then, each subsequent class will inherit these methods and then define class spe
  
  ![alt text](Member%20Adapter%20Pattern.png)
  
- ![alt text](hoto%20Adapter%20Diagram.png)
+ ![alt text](photo%20Adapter%20Diagram.png)
  
  ![alt text](Post-CommentAdapterPattern.png)
  
