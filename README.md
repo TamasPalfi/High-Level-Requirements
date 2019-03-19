@@ -242,5 +242,5 @@ Then, each subsequent class will inherit these methods and then define class spe
 #### Post
 ![](post.png)
 
-#### ER Diagram
+#### URL
 ![](entire_map.png)
