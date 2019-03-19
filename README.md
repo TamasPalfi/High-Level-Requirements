@@ -27,27 +27,21 @@ Then, each subsequent class will inherit these methods and then define class spe
  - set_is_idol
 
 
-![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Object%20Oriented%20Members%20Only%20-%20Fault%20Tree%20Analysis%20Example.png)
+![alt text](Object%20Oriented%20Members%20Only%20-%20Fault%20Tree%20Analysis%20Example.png)
 
 
-<details>
- <summary> Adapter Pattern Design </summary>
+##  Adapter Pattern Design 
  
- ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Member%20Adapter%20Pattern.png)
+ ![alt text](Member%20Adapter%20Pattern.png)
  
- ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Photo%20Adapter%20Diagram.png)
+ ![alt text](hoto%20Adapter%20Diagram.png)
  
- ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/Post-CommentAdapterPattern.png)
+ ![alt text](Post-CommentAdapterPattern.png)
  
- ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/URL-URLShortenerAdapterPattern.png)
-
-</details>
+ ![alt text](URL-URLShortenerAdapterPattern.png)
 
 
-
-
-<details>
-  <summary> Data Tables </summary>
+ ## Data Tables 
   
   ### User
   | ID | Email | Password | CC Number | CVV | Is Admin |  Is Idol | Points | Visibility | Invited By |
@@ -94,13 +88,8 @@ Then, each subsequent class will inherit these methods and then define class spe
   | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
   | Integer | Integer | Integer | Integer | Date & Time Field | Date & Time Field | String | Boolean | 
   
-</details>
 
-
-
-<details>
- <summary> Class Method Calls </summary>
- 
+ ##  Class Method Calls 
 ### URL
  - get_id()
  - set_id()
@@ -225,11 +214,6 @@ Then, each subsequent class will inherit these methods and then define class spe
  - get_is_flagged()
  - set_is_flagged()
  
- 
- 
-</details>
-
-
 
 ### ER diagrams
 
