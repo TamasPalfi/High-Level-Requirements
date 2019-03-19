@@ -231,7 +231,7 @@ Then, each subsequent class will inherit these methods and then define class spe
 
 
 
-### ER diagram.
+### ER diagrams
 
 #### User
 ![](user.png)
