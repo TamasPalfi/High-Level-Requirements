@@ -56,12 +56,12 @@ Then, each subsequent class will inherit these methods and then define class spe
   
   ### URL
   | ID | Text/Link | Shortened URL Key | User Key | Associated Website |
-  | :- | :---: | :------: | :-------: | :-: | :-----: |
+  | :- | :---: | :------: | :-------: | :-: |
   | Integer | String | Integer | Integer | String |
   
   ### Shortened URL
   | ID | Text/Link | Shortened URL Key | User Key | Associated Website |
-  | :- | :---: | :------: | :-------: | :-: | :-----: |
+  | :- | :---: | :------: | :-------: | :-: |
   | Integer | String | Integer | Integer | String |
   
   ### Sponsored Items
@@ -81,7 +81,7 @@ Then, each subsequent class will inherit these methods and then define class spe
   
   ### Filters
   | ID | Filter Name | Description | Points Given |
-  | :- | :---: | :------: | :-------: | :---: |
+  | :- | :---: | :------: | :-------: |
   | Integer | String | String | Integer |
   
   ### Image
@@ -91,7 +91,7 @@ Then, each subsequent class will inherit these methods and then define class spe
 
   ### Post
   | ID  | Image Key | Comment Key | User Key | Date Created | Date Modified | Content | Is Flagged | 
-  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |:----: |
+  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
   | Integer | Integer | Integer | Integer | Date & Time Field | Date & Time Field | String | Boolean | 
   
 </details>
