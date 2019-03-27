@@ -3,8 +3,22 @@ class InvalidObjectTypeException(exception):
 
 
 class DBAdaptor:
-    def __init__(self, obj_type):
+    def __init__(self, obj_type: str):
         self.obj_type = obj_type.lower()
+
+    types = ['member', 'image', 'filtered image', 'post', 'comment', 'url', 'shortened url', 'filter', 'sponsored item']
+
+    if self.obj_type not in types:
+        raise InvalidObjectTypeException('Did input valid object type. Valid object types are:'
+                                         'member'
+                                         'image'
+                                         'filtered image'
+                                         'post'
+                                         'comment'
+                                         'url'
+                                         'shortened url'
+                                         'filter'
+                                         'sponsored item')
 
     if self.type == 'member':
 
