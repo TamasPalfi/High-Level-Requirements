@@ -35,9 +35,9 @@ Then, each subsequent class will inherit these methods and then define class spe
  ## Data Tables 
   
   ### User
-  | ID | First Name |Last Name | Email | Password | CC Number | CVV | Is Admin |  Is Idol | Points | Visibility | Invited By | DOB | Address | Phone Number |
+  | ID | First Name |Last Name | Email | Password | CC Number | Is Admin |  Is Idol | Points | Visibility | Invited By | DOB | Address | Phone Number |
   | :- |:----: |:-----: |:---: | :------: | :-------: | :-: | :-----: | :----: | :---: | :----: | :----: | :----:| :----: | :----:|
-  | Integer | | String | String |String | String | Integer | Integer | Boolean | Boolean | Integer | Boolean | Integer | Date and Time Field| String | String |
+  | Integer | String | String | String |String | String | Integer | Boolean | Boolean | Integer | Boolean | Integer | Date and Time Field| String | String |
   
   ### URL
   | ID | Text/Link | Shortened URL Key | User Key | Associated Website |
