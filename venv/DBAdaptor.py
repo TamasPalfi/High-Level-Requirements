@@ -32,7 +32,7 @@ class DBAdaptor:
             pass
 
         def set_post(self, new_information: dict(), obj_id) -> bool:
-            # Allow information about a member to be set in database
+            # Allow information about an object to be set in database
             # Takes dictionary as input - Keys should be what parameters need to be changed
             # Values are information being changed
             # Returns true if information change was successful
@@ -40,7 +40,7 @@ class DBAdaptor:
             pass
 
         def remove_post(self, obj_id) -> bool:
-            # Returns true if post removal was successful
+            # Returns true if removal was successful
             # False otherwise
             pass
 
@@ -51,7 +51,7 @@ class DBAdaptor:
             pass
 
         def set_comment(self, new_information: dict(), obj_id) -> bool:
-            # Allow information about a member to be set in database
+            # Allow information about an object to be set in database
             # Takes dictionary as input - Keys should be what parameters need to be changed
             # Values are information being changed
             # Returns true if information change was successful
@@ -59,7 +59,7 @@ class DBAdaptor:
             pass
 
         def remove_comment(self, obj_id) -> bool:
-            # Returns true if post removal was successful
+            # Returns true if removal was successful
             # False otherwise
             pass
 
@@ -70,7 +70,7 @@ class DBAdaptor:
             pass
 
         def set_url(self, new_information: dict(), obj_id) -> bool:
-            # Allow information about a member to be set in database
+            # Allow information about an object to be set in database
             # Takes dictionary as input - Keys should be what parameters need to be changed
             # Values are information being changed
             # Returns true if information change was successful
@@ -78,7 +78,7 @@ class DBAdaptor:
             pass
 
         def remove_url(self, obj_id) -> bool:
-            # Returns true if post removal was successful
+            # Returns true if removal was successful
             # False otherwise
             pass
 
@@ -89,7 +89,7 @@ class DBAdaptor:
             pass
 
         def set_shortened_url(self, new_information: dict(), obj_id) -> bool:
-            # Allow information about a member to be set in database
+            # Allow information about an object to be set in database
             # Takes dictionary as input - Keys should be what parameters need to be changed
             # Values are information being changed
             # Returns true if information change was successful
@@ -97,7 +97,7 @@ class DBAdaptor:
             pass
 
         def remove_shortened_url(self, obj_id) -> bool:
-            # Returns true if post removal was successful
+            # Returns true if removal was successful
             # False otherwise
             pass
 
@@ -108,7 +108,7 @@ class DBAdaptor:
             pass
 
         def set_image(self, new_information: dict(), obj_id) -> bool:
-            # Allow information about a member to be set in database
+            # Allow information about an object to be set in database
             # Takes dictionary as input - Keys should be what parameters need to be changed
             # Values are information being changed
             # Returns true if information change was successful
@@ -116,7 +116,7 @@ class DBAdaptor:
             pass
 
         def remove_image(self, obj_id) -> bool:
-            # Returns true if post removal was successful
+            # Returns true if removal was successful
             # False otherwise
             pass
 
@@ -127,7 +127,7 @@ class DBAdaptor:
             pass
 
         def set_filtered_image(self, new_information: dict(), obj_id) -> bool:
-            # Allow information about a member to be set in database
+            # Allow information about an object to be set in database
             # Takes dictionary as input - Keys should be what parameters need to be changed
             # Values are information being changed
             # Returns true if information change was successful
@@ -135,7 +135,7 @@ class DBAdaptor:
             pass
 
         def remove_filtered_image(self, obj_id) -> bool:
-            # Returns true if post removal was successful
+            # Returns true if removal was successful
             # False otherwise
             pass
 
@@ -147,7 +147,7 @@ class DBAdaptor:
             pass
 
         def set_filter(self, new_information: dict(), obj_id) -> bool:
-            # Allow information about a member to be set in database
+            # Allow information about an object to be set in database
             # Takes dictionary as input - Keys should be what parameters need to be changed
             # Values are information being changed
             # Returns true if information change was successful
@@ -155,7 +155,7 @@ class DBAdaptor:
             pass
 
         def remove_filter(self, obj_id) -> bool:
-            # Returns true if post removal was successful
+            # Returns true if removal was successful
             # False otherwise
             pass
 
@@ -166,7 +166,7 @@ class DBAdaptor:
             pass
 
         def set_sponsored_item(self, new_information: dict(), obj_id) -> bool:
-            # Allow information about a member to be set in database
+            # Allow information about an object to be set in database
             # Takes dictionary as input - Keys should be what parameters need to be changed
             # Values are information being changed
             # Returns true if information change was successful
@@ -174,7 +174,7 @@ class DBAdaptor:
             pass
 
         def remove_sponsored_item(self, obj_id) -> bool:
-            # Returns true if post removal was successful
+            # Returns true if removal was successful
             # False otherwise
             pass
 
