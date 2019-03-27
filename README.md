@@ -1,8 +1,8 @@
 # High-Level-Requirements
 
-As the database team, we are envisioning creating a relational database where there is a data table for every possible class in the system. This will allow us to abstract a lot of the functionality in our interface, where there will be a fundamental set of "getter" and "setter" methods that the backend development teams can use to access the database. From here, each class will extend from our fundamental interface class. This will allow each class to add methods that are specific to the data items that will be associated with each class. Overall, this will enhance organization because we will not have to deal with having cumbersome amounts of data associated with each class, thus allowing us to simplify the process of accessing and altering data with each object in the system.
+As the database team, we are envisioning creating a relational database with PostgreSQL where there is a data table for every possible class in the system. This will allow us to abstract a lot of the functionality in our interface, where there will be a fundamental set of "getter" and "setter" methods that the backend development teams can use to access the database. From here, each class will extend from our fundamental interface class. This will allow each class to add methods that are specific to the data items that will be associated with each class. Overall, this will enhance organization because we will not have to deal with having cumbersome amounts of data associated with each class, thus allowing us to simplify the process of accessing and altering data with each object in the system.
 
-Additionally, we will be implementing this using an Adapter Design Pattern. This design pattern allows us to create an interface that will allow functionality inbetween classes that backend model teams will use that may otherwise be incompatible. Thus, we will create adapter classes that will merge similar functionalities between objects and inherited objects, simplifying the model groups' interactions with the database. Overall, our adapter classes will allow the model groups to use only one class to access what may be a variety of different tables in the database. This will ensure clean code and simplified, congregated interactions. 
+Additionally, we will be implementing this using an Adapter Design Pattern. This design pattern allows us to create a universal interface that will allow functionality inbetween classes that backend model teams. Specifically, it will allow backend model teams to use our singular DBAdaptor class for all of their database needs. They will just need to pass in the object type that they wish to work with and then there will be methods available to them relating to member, image, post, comment, and more objects. This way backend teams will not have to work with a myriad of files and libraries just to properly use the database. This will minimize errors and centralize database access and manipulation.  
 
 As an overarching example, the fundamental methods of our interface will be something like:
  - get_id
@@ -19,8 +19,6 @@ Then, each subsequent class will inherit these methods and then define class spe
  - set_pw
  - get_cc_num
  - set_cc_num
- - get_cvv
- - set_cvv
  - get_is_admin
  - set_is_admin
  - get_is_idol
@@ -32,21 +30,14 @@ Then, each subsequent class will inherit these methods and then define class spe
 
 ##  Adapter Pattern Design 
  
- ![alt text](Member%20Adapter%20Pattern.png)
- 
- ![alt text](photo%20Adapter%20Diagram.png)
- 
- ![alt text](Post-CommentAdapterPattern.png)
- 
- ![alt text](URL-URLShortenerAdapterPattern.png)
-
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
 
  ## Data Tables 
   
   ### User
-  | ID | Email | Password | CC Number | CVV | Is Admin |  Is Idol | Points | Visibility | Invited By |
-  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :---: | :----: | :----: |
-  | Integer | String | String | Integer | Integer | Boolean | Boolean | Integer | Boolean | Integer |
+  | ID | First Name |Last Name | Email | Password | CC Number | CVV | Is Admin |  Is Idol | Points | Visibility | Invited By | DOB | Address | Phone Number |
+  | :- |:----: |:-----: |:---: | :------: | :-------: | :-: | :-----: | :----: | :---: | :----: | :----: | :----:| :----: | :----:|
+  | Integer | | String | String |String | String | Integer | Integer | Boolean | Boolean | Integer | Boolean | Integer | Date and Time Field| String | String |
   
   ### URL
   | ID | Text/Link | Shortened URL Key | User Key | Associated Website |
