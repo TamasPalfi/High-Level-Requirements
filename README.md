@@ -114,15 +114,15 @@ Then, each subsequent class will inherit these methods and then define class spe
 
  ##  Class Method Calls 
 
-![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/skeleton1.jpg)
 
-![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/skeleton2.png)
 
-![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/skeleton3.png)
 
-![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/skeleton4.png)
 
-![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/skeleton5.png)
  
 
 ### ER diagrams
