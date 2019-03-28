@@ -208,14 +208,5 @@ Then, each subsequent class will inherit these methods and then define class spe
 
 ### ER diagrams
 
-#### User
-![](user.png)
-
-#### Image
-![](image.png)
-
-#### Post
-![](post.png)
-
 #### Entire System
-![](entire_map.png)
+![](er.png)
