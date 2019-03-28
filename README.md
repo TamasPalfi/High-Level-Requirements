@@ -29,71 +29,98 @@ Then, each subsequent class will inherit these methods and then define class spe
 
 
 ##  Adapter Pattern Design 
- 
+
 ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
 
- ## Data Tables 
-  
-  ### User
-  | ID | First Name | Last Name | Email | Password | CC Number | Is Admin |  Is Idol | Points | Visibility | Invited By | DOB | Address | Phone Number |
-  | :- |:----: |:-----: |:---: | :------: | :-------: | :-: | :-----: | :----: | :---: | :----: | :----: | :----: | :----: |
-  | Integer | String | String | String |String | String | Boolean | Boolean | Integer | Boolean | ID | Date and Time Field| String | String |
-  
-  ### URL
-  | ID | Text/Link | Shortened URL Key | User Key | Associated Website |
-  | :- | :---: | :------: | :-------: | :-: |
-  | Integer | String | Integer | Integer | String |
-  
-  ### Shortened URL
-  | ID | Text/Link | Shortened URL Key | User Key | Associated Website |
-  | :- | :---: | :------: | :-------: | :-: |
-  | Integer | String | Integer | Integer | String |
-  
-  ### Sponsored Items
-  | ID | Company | Points Given | Description | Size | Times Used |
-  | :- | :---: | :------: | :-------: | :-: | :-----: |
-  | Integer | String | Integer | String | Int x Int | Integer |
-  
-  ### Comment
-  | ID | User Key | Original Post Key | Content of Comment | Date Created | Points Given |
-  | :- | :---: | :------: | :-------: | :----: | :-----: |
-  | Integer | Integer | Integer | String | Date and Time Field | Integer |
-  
-  ### Filtered Image
-  | ID | Filters Key | Sponsored Items Key | Original Image Key | Points Given | Done by Admin | Post Key | Date Created | User Key | 
-  | :- | :-----: | :------: | :-------: | :-----: | :----: | :----: | :----: | :----: |
-  | Integer | Integer | Integer | Integer | Integer | Boolean | Integer | Date & Time Field | Integer |
-  
-  ### Filters
-  | ID | Filter Name | Description | Points Given |
-  | :- | :---: | :------: | :-------: |
-  | Integer | String | String | Integer |
-  
-  ### Image
-  | ID | User Key | Image Format | Date Created | Associated Website | Flagged | Filtered Photo Key | Post Key |
-  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
-  | Integer | String | String | Date & Time Field | String | Boolean | Integer | Integer |
+## Data Tables 
 
-  ### Post
-  | ID  | Image Key | Comment Key | User Key | Date Created | Date Modified | Content | Is Flagged | 
-  | :- | :---: | :------: | :-------: | :-: | :-----: | :----: | :----: |
-  | Integer | Integer | Integer | Integer | Date & Time Field | Date & Time Field | String | Boolean | 
-  
+#### User
+| Field Name     | Data Type |
+|----------------|-----------|
+| userid         | integer   |
+| postId         | integer[] |
+| ccId           | integer   |
+| email          | varChar   |
+| password       | varChar   |
+| username       | varChar   |
+| points         | interger  |
+| visibility     | integer[] |
+| invitiedBy     | integer   |
+| type           | varChar   |
+| loginTime      | date/time |
+| logoutTime     | date/time |
+| dateOfCreation | date/time |
+| isVerified     | boolean   |
+| brithday       | date/time |
+| address        | varChar   |
 
  ##  Class Method Calls 
 INPUT PYTHON IMAGES
  
 
-### ER diagrams
 
-#### User
-![](user.png)
-
-#### Image
-![](image.png)
+#### Credit Card
+| Field Name    | Data Type |
+|---------------|-----------|
+| usrId         | integer   |
+| cardNumber    | integer   |
+| cardCSV       | integer   |
+| holderName    | varChar   |
+| cardExp       | integer   |
+| dateAdded     | date/time |
+| currentlyUsed | boolean   |
 
 #### Post
-![](post.png)
+| Field Name   | Data Type |
+|--------------|-----------|
+| postId       | integer[] |
+| commentId    | integer[] |
+| imageId      | integer[] |
+| userId       | integer   |
+| username     | varChar   |
+| url          | varChar   |
+| shortenedUrl | varChar   |
+| dateCreated  | date/time |
+| dateModified | date/time |
+| isFlagged    | boolean   |
+| pointsGiven  | integer   |
+| content      | textfield |
+| byAdmin      | boolean   |
+| type         | varChar   |
+
+#### Comment
+| Field Name     | Data Type |
+|----------------|-----------|
+| InnerCommentId | Integer[] |
+| postId         | integer   |
+| userId         | integer   |
+| username       | varChar   |
+| content        | textField |
+| dateCreated    | date/time |
+| byAdmin        | boolean   |
+#### Image
+| Field Name    | Data Type  |
+|---------------|------------|
+| filterId      | Integer[]  |
+| originalImage | ImageField |
+| filteredImage | ImageField |
+| filterUsed    | boolean    |
+| isFlagged     | boolean    |
+| type          | varChar    |
+| byAdmin       | boolean    |
+
+##### Filter
+| Field Name | Data Type |
+|------------|-----------|
+| filterId   | id        |
+| type       | varChar   |
+| previewUrl | varChar   |
+
+ ##  Class Method Calls 
+ INSERT PYTHON IMAGES
+ 
+
+### ER diagrams
 
 #### Entire System
-![](entire_map.png)
+![](er1.png)
