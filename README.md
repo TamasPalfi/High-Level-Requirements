@@ -1,41 +1,3 @@
-<<<<<<< HEAD
-<details>
-<summary>New Members</summary>
-
-
-</details>
-
-
-<details>
-<summary>Members</summary>
-
-
-</details>
-
-
-<details>
-<summary>Admin</summary>
-
-
-</details>
-
-
-
-<details>
-<summary>Idol</summary>
-
-
-
-</details>
-
-
-<details>
-<summary>System</summary>
-
-
-hi
-</details>
-=======
 # High-Level-Requirements
 
 As the database team, we are envisioning creating a relational database with PostgreSQL where there is a data table for every possible class in the system. This will allow us to abstract a lot of the functionality in our interface, where there will be a fundamental set of "getter" and "setter" methods that the backend development teams can use to access the database. From here, each class will extend from our fundamental interface class. This will allow each class to add methods that are specific to the data items that will be associated with each class. Overall, this will enhance organization because we will not have to deal with having cumbersome amounts of data associated with each class, thus allowing us to simplify the process of accessing and altering data with each object in the system.
@@ -151,11 +113,19 @@ Then, each subsequent class will inherit these methods and then define class spe
 | previewURL | varChar   |
 
  ##  Class Method Calls 
- INSERT PYTHON IMAGES
+
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
+
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
  
 
 ### ER diagrams
 
 #### Entire System
 ![](er1.png)
->>>>>>> f77010fba5413bdbe8ddf077480ac39078ddc177
