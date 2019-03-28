@@ -54,6 +54,11 @@ Then, each subsequent class will inherit these methods and then define class spe
 | brithday       | date/time |
 | address        | varChar   |
 
+ ##  Class Method Calls 
+INPUT PYTHON IMAGES
+ 
+
+
 #### Credit Card
 | Field Name    | Data Type |
 |---------------|-----------|
