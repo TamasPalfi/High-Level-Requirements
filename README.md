@@ -29,8 +29,8 @@ Then, each subsequent class will inherit these methods and then define class spe
 
 
 ##  Adapter Pattern Design 
- 
-![alt text](correctdbadaptoruml.png)
+
+![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
 
 ## Data Tables 
 
