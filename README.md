@@ -37,28 +37,28 @@ Then, each subsequent class will inherit these methods and then define class spe
 #### User
 | Field Name     | Data Type |
 |----------------|-----------|
-| userid         | integer   |
-| postId         | integer[] |
-| ccId           | integer   |
+| userID         | integer   |
+| postID         | integer[] |
+| ccID           | integer   |
 | email          | varChar   |
 | password       | varChar   |
 | username       | varChar   |
 | points         | interger  |
 | visibility     | integer[] |
-| invitiedBy     | integer   |
+| invitedBy      | integer   |
 | type           | varChar   |
 | loginTime      | date/time |
 | logoutTime     | date/time |
 | dateOfCreation | date/time |
 | isVerified     | boolean   |
-| brithday       | date/time |
+| birthday       | date/time |
 | address        | varChar   |
 
 
 #### Credit Card
 | Field Name    | Data Type |
 |---------------|-----------|
-| usrId         | integer   |
+| userId        | integer   |
 | cardNumber    | integer   |
 | cardCSV       | integer   |
 | holderName    | varChar   |
@@ -70,12 +70,12 @@ Then, each subsequent class will inherit these methods and then define class spe
 | Field Name   | Data Type |
 |--------------|-----------|
 | postId       | integer[] |
-| commentId    | integer[] |
-| imageId      | integer[] |
-| userId       | integer   |
+| commentID    | integer[] |
+| imageID      | integer[] |
+| userID       | integer   |
 | username     | varChar   |
 | url          | varChar   |
-| shortenedUrl | varChar   |
+| shortenedURL | varChar   |
 | dateCreated  | date/time |
 | dateModified | date/time |
 | isFlagged    | boolean   |
@@ -87,9 +87,9 @@ Then, each subsequent class will inherit these methods and then define class spe
 #### Comment
 | Field Name     | Data Type |
 |----------------|-----------|
-| InnerCommentId | Integer[] |
-| postId         | integer   |
-| userId         | integer   |
+| innerCommentId | Integer[] |
+| postID         | integer   |
+| userID         | integer   |
 | username       | varChar   |
 | content        | textField |
 | dateCreated    | date/time |
@@ -97,7 +97,7 @@ Then, each subsequent class will inherit these methods and then define class spe
 #### Image
 | Field Name    | Data Type  |
 |---------------|------------|
-| filterId      | Integer[]  |
+| filterID      | Integer[]  |
 | originalImage | ImageField |
 | filteredImage | ImageField |
 | filterUsed    | boolean    |
@@ -108,9 +108,9 @@ Then, each subsequent class will inherit these methods and then define class spe
 ##### Filter
 | Field Name | Data Type |
 |------------|-----------|
-| filterId   | id        |
+| filterID   | id        |
 | type       | varChar   |
-| previewUrl | varChar   |
+| previewURL | varChar   |
 
  ##  Class Method Calls 
  INSERT PYTHON IMAGES
