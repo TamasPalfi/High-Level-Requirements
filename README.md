@@ -58,7 +58,7 @@ Then, each subsequent class will inherit these methods and then define class spe
 #### Credit Card
 | Field Name    | Data Type |
 |---------------|-----------|
-| userId        | integer   |
+| userID        | integer   |
 | cardNumber    | integer   |
 | cardCSV       | integer   |
 | holderName    | varChar   |
@@ -69,7 +69,7 @@ Then, each subsequent class will inherit these methods and then define class spe
 #### Post
 | Field Name   | Data Type |
 |--------------|-----------|
-| postId       | integer[] |
+| postID       | integer[] |
 | commentID    | integer[] |
 | imageID      | integer[] |
 | userID       | integer   |
@@ -87,7 +87,7 @@ Then, each subsequent class will inherit these methods and then define class spe
 #### Comment
 | Field Name     | Data Type |
 |----------------|-----------|
-| innerCommentId | Integer[] |
+| innerCommentID | Integer[] |
 | postID         | integer   |
 | userID         | integer   |
 | username       | varChar   |
