@@ -1,15 +1,15 @@
 # High-Level-Requirements
 
-As the database team, we are envisioning creating a relational database with PostgreSQL where there is a data table for every possible class in the system. This will allow us to abstract a lot of the functionality in our interface, where there will be a fundamental set of "getter" and "setter" methods that the backend development teams can use to access the database. From here, each class will extend from our fundamental interface class. This will allow each class to add methods that are specific to the data items that will be associated with each class. Overall, this will enhance organization because we will not have to deal with having cumbersome amounts of data associated with each class, thus allowing us to simplify the process of accessing and altering data with each object in the system.
+As the database team, we are envisioning creating a relational database with PostgreSQL with a data table for every possible class in the system. This allows us to abstract much of the functionality in our interface, where there will be fundamental "getter" and "setter" methods that the backend development teams will use to access the database. From here, each class will extend from our fundamental interface class. This allows each class to add methods that are specific to the data items associated with each class. Overall, this enhances organization because we will not have to deal with cumbersome amounts of data associated with each class, thus allowing us to simplify the process of accessing and altering data with each object in the system.
 
-Additionally, we will be implementing this using an Adapter Design Pattern. This design pattern allows us to create a universal interface that will allow functionality inbetween classes that backend model teams create and use. Specifically, it will allow backend model teams to use our singular DBAdaptor class for all of their database needs. They will just need to pass in the object type that they wish to work with and then there will be methods available to them relating to member, image, post, comment, and more objects. This way backend teams will not have to work with a myriad of files and libraries just to properly use the database. This will minimize errors and centralize database access and manipulation.  
+We will be implementing this using an Adapter Design Pattern. This design pattern allows us to create a universal interface that will allow functionality between classes that the backend model teams create and use. Specifically, it will allow the backend model teams to use our singular DBAdapter class for all of their database needs. They will need to pass in the object type they wish to work with and then there will be methods available to them relating to member, image, post, comment, and other objects. This simplifies things for the backend teams as they will not have to work with a myriad of files and libraries in order to properly use the database. This will minimize errors and centralize database access and manipulation.  
 
 As an overarching example, the fundamental methods of our interface will be something like:
  - get_id
  - set_id
  - remove_item
  
-Then, each subsequent class will inherit these methods and then define class specific ones. An example for the User object would be:
+Each subsequent class will inherit these methods and then define class specific ones. An example for the User object would be:
  - get_id
  - set_id
  - remove_item
@@ -28,11 +28,11 @@ Then, each subsequent class will inherit these methods and then define class spe
 ![alt text](Object%20Oriented%20Members%20Only%20-%20Fault%20Tree%20Analysis%20Example.png)
 
 
-##  Adapter Pattern Design 
+###  Adapter Pattern Design 
 
 ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/correctdbadaptoruml.png)
 
-## Data Tables 
+### Data Tables 
 
 #### User
 | Field Name     | Data Type |
@@ -105,14 +105,14 @@ Then, each subsequent class will inherit these methods and then define class spe
 | type          | varChar    |
 | byAdmin       | boolean    |
 
-##### Filter
+#### Filter
 | Field Name | Data Type |
 |------------|-----------|
 | filterID   | id        |
 | type       | varChar   |
 | previewURL | varChar   |
 
- ##  Class Method Calls 
+ ###  Class Method Calls 
 
 ![alt text](https://github.com/320-group4/High-Level-Requirements/blob/master/skeleton1.jpg)
 
